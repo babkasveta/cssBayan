@@ -2,14 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:"TT";
+    background-position:"хуй хуй хуй хуй хуй";
+  }
+  h1{
+    position: relative;
+    left: 700px;
+    top: 50px;
   }
   @media (max-width: 569px) {
     .accordion{
       width: 850px;
     }
   }
+  @font-face {
+    font-family: "TT";
+    src: url(TTCommons-Regular.ttf);
+  }
   body {
-    font-family: Arial;
+    font-family: TT-Commons;
     line-height: 1.2;
     background-color: #8a2be2;
   }
