@@ -10,6 +10,7 @@
     top: 50px;
     color: #84BD00;
     font-size: 42px;
+    width: 100px;
   }
   @media (max-width: 569px) {
     .accordion{
@@ -26,11 +27,13 @@
     background-color: #8a2be2;
   }
   .wrapper {
+    position: relative;
+    top:150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+
   }
   
   details summary::-webkit-details-marker {
