@@ -3,12 +3,16 @@
     margin: 0;
     box-sizing: border-box;
   }
+  @media (max-width: 569px) {
+    .accordion{
+      width: 850px;
+    }
+  }
   body {
     font-family: Arial;
     line-height: 1.2;
     background-color: #8a2be2;
   }
-  
   .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +25,7 @@
     display: none;
   }
   .accordion {
-    max-width: 470px;
+    width: 470px;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 0 120px 40px rgba(255, 255, 255, 0.4);
@@ -42,7 +46,7 @@
     cursor: pointer;
     padding: 10px 40px 10px 20px;
     position: relative;
-    transition: 0.3s all;
+    transition: 1s all;
   }
   .accordion__title:hover {
     background-color: #111;
@@ -55,7 +59,7 @@
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
-    transition: 0.3s all;
+    transition: 1s all;
   }
   .accordion__item:not([open]):last-child .accordion__title {
     border: none;
